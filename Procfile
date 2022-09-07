@@ -1,2 +1,2 @@
-web:gunicorn WoTD.py:app
+web: python WoTD:app
 

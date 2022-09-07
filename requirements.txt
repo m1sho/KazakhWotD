@@ -1,6 +1,5 @@
 gunicorn
-opencv-python
 numpy
-libgl1
 PyQt5
+opencv-python-headless==4.2.0.32
 

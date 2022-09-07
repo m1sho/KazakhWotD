@@ -1,5 +1,6 @@
 gunicorn
 opencv-python
 numpy
+libgl1
 PyQt5
 

@@ -12,7 +12,7 @@ customtkinter.set_default_color_theme("blue")
 
 
 root_tk = customtkinter.CTk()  # create CTk window like the Tk window
-root_tk.geometry("400x240")
+root_tk.geometry("300x200")
 root_tk.title("Kazakh Word of the Day")
 
 
@@ -25,16 +25,17 @@ def exportClick():
 
 # Use CTkButton instead of tkinter Button
 
-button1 = customtkinter.CTkButton(master=root_tk, text="Translation",command=onClick)
-button1.pack()
-button = customtkinter.CTkButton(master=root_tk, text="Export to Excel",command=exportClick())
-button.place(x=0,y=100)
 
-l = Label(text="Your word of the day:"+kz)
-l.config(font=("Roboto", 14))
-l.config(background='Yellow')
+
+l = Label(text=kz)
+l.config(font=("Roboto", 26))
+#l.config(background='Yellow')
 
 l.pack()
+button1 = customtkinter.CTkButton(master=root_tk, text="Translation",command=onClick)
+button1.pack()
+#button = customtkinter.CTkButton(master=root_tk, text="Export to Excel",command=exportClick())
+#button.pack()
 root_tk.configure(background='grey')
 root_tk.mainloop()
 

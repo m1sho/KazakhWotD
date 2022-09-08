@@ -2,6 +2,6 @@ libgl1-mesa-glx
 ffmpeg 
 libxext6
 libsm6  
-libxcb
+libxcb-xinerama0
 
 

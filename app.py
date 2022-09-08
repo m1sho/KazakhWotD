@@ -30,8 +30,10 @@ class MainWindow(QMainWindow):
         QMessageBox.about(self, "Translation", translation)
 
 
+myapp = QtWidgets.QApplication(sys.argv)
 if __name__ == "__main__":
-    myapp = QtWidgets.QApplication(sys.argv)
+
+
 
     mainWin = MainWindow()
     mainWin.show()

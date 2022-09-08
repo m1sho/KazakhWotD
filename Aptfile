@@ -3,5 +3,6 @@ ffmpeg
 libxext6
 libsm6  
 libxcb-xinerama0
+libxkbcommon-x11
 
 

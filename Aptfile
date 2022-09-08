@@ -2,8 +2,12 @@ libgl1-mesa-glx
 ffmpeg 
 libxext6
 libsm6  
+libxcb-icccm4 
+libxcb-xkb1 
+libxcb-icccm4 
+libxcb-image0 
+libxcb-render-util0 
+libxcb-randr0 
+libxcb-keysyms1 
 libxcb-xinerama0
-libxkbcommon-x11-0
-libxkbcommon0
-
 

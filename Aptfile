@@ -2,4 +2,4 @@ libgl1-mesa-glx
 ffmpeg 
 libxext6
 libsm6  
-install qt5-default
+qt5-default
